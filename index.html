@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script type="module" defer src="src/js/control.js"></script>
+    <title>Bozo Chat</title>
+  </head>
+  <body>
+    <div id="cursor">
+      <div class="cursor--inner">
+        <img src="src\img\BozoSharperLogo.svg" alt="lovely" />
+        <div class="cursor--outer"></div>
+      </div>
+    </div>
+    <div class="loader">
+      <div class="loader--inner">
+        <img src="src\img\BozoSharperLogo.svg" alt="lovely" />
+        <div class="loader--outer"></div>
+      </div>
+      <p>bozo chat</p>
+    </div>
+    <main>
+      <div class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul>
+          <a class="logo" href="/">
+            <img src="src\img\BozoSharperLogo.png" alt="bozochat" />
+          </a>
+          <li>
+            <a href="#service">services</a>
+            <a href="#partner">Partners</a>
+            <a href="#faq">faq</a>
+            <!-- <a target="_blank" href="https://neongroup.hyper.co/">log in</a> -->
+            <button class="dropdown-button main-button">
+              <span class="dropdown-title text-truncate">log in</span>
+              <span class="dropdown-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <path
+                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                  />
+                </svg>
+              </span>
+            </button>
+
+            <div class="dropdown-items">
+              <a target="blank" href="https://dashboard.bozochat.com/login"
+                >Dashboard</a
+              >
+              <a href="#">Tools</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="intro-section section" id="intro">
+        <div class="intro-text">
+          <div class="upper">
+            <div style="transform: translateY(0%)">
+              <p>join</p>
+              <p>minimize</p>
+              <p>maximize</p>
+            </div>
+          </div>
+          <div class="lower">
+            <div style="transform: translateY(0%)">
+              <p>profits</p>
+              <p>risks</p>
+              <p>bozo</p>
+            </div>
+          </div>
+          <!-- <div class="intro-line">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div> -->
+        </div>
+        <div class="purchase">
+          <h2><span>join</span> the winning team</h2>
+          <a id="purchaseButton">
+            <span class="shine"></span>
+            Purchase for $40/Month
+          </a>
+        </div>
+        <div class="coverImage">
+          <img class="delivery float" src="src\img\delivery.svg" alt="cover" />
+          <img class="visual float" src="src\img\cc.svg" alt="cover" />
+          <img class="setting float" src="src\img\setting.png" alt="cover" />
+          <img class="gift float" src="src\img\gift.png" alt="cover" />
+          <!-- <img class="bluecredit" src="src\img\bluecredit.svg" alt="cover" /> -->
+          <!-- <img class="sneaker" src="src\img\sneaker.svg" alt="cover" /> -->
+          <img class="starOne element" src="src\img\star.svg" alt="cover" />
+          <img
+            class="store element"
+            src="src\img\onlinestore.svg"
+            alt="cover"
+          />
+          <img class="starThree element" src="src\img\star.svg" alt="cover" />
+          <img class="starTwo element" src="src\img\star.svg" alt="cover" />
+          <img
+            class="cone element"
+            src="src\img\beveled-cone.png"
+            alt="cover"
+          />
+          <img class="box element" src="src\img\box.svg" alt="cover" />
+          <img
+            class="cover element"
+            src="src\img\backgroundCover.svg"
+            alt="cover"
+          />
+        </div>
+      </div>
+      <div class="about-services section" id="service">
+        <h2>what we <span>offer</span></h2>
+        <div class="about-us">
+          <img class="element" src="src\img\mobile.svg" alt="mobile" />
+          <p>
+            Bozo Chat is a private Discord-based community that offers you all
+            the resources, support, and guidance you need to maximize your
+            profits.
+          </p>
+          <!-- <div class="about-line">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div> -->
+        </div>
+        <!-- <div class="cover"></div> -->
+        <div class="services">
+          <div class="aco">
+            <img src="src\img\Buy.svg" alt="shopping" />
+            <p>ACO</p>
+            <p>
+              Our team of trusted botters provides high quality auto-checkout
+              service.
+            </p>
+            <div class="service-cover"></div>
+          </div>
+          <div class="seminar">
+            <img src="src\img\messages.svg" alt="shopping" />
+            <p>SEMINARS</p>
+            <p>
+              Weekly calls teach members about the group and about setting up
+              for drop day.
+            </p>
+            <div class="service-cover"></div>
+          </div>
+          <div class="guide">
+            <img src="src\img\clock.svg" alt="shopping" />
+            <p>Release guides</p>
+            <p>
+              In depth release guides show how to purchase any profitable item.
+            </p>
+            <div class="service-cover"></div>
+          </div>
+          <div class="support">
+            <img src="src\img\auto.svg" alt="shopping" />
+            <p>1 ON 1 SUPPORT</p>
+            <p>On call 24/7, our team is here to answer your questions.</p>
+            <div class="service-cover"></div>
+          </div>
+          <div class="shipping">
+            <img src="src\img\map.svg" alt="shopping" />
+            <p>Reshipping</p>
+            <p>
+              Members can utilize our discounted shoe storage and reshipping
+              service.
+            </p>
+            <div class="service-cover"></div>
+          </div>
+        </div>
+        <img class="box element" src="src\img\box.svg" alt="box" />
+        <img class="bell element" src="src\img\bell.svg" alt="box" />
+        <img class="fun element" src="src\img\conffeti.png" alt="box" />
+        <img class="cart element" src="src\img\moonStar.png" alt="box" />
+      </div>
+      <div class="partners-section section" id="partner">
+        <h2>our <span>partners</span></h2>
+        <div class="partners-details">
+          <div class="palooza">
+            <img src="src\img\palooza.png" alt="logo" />
+            <p>
+              Detroit's Greatest Sneaker Convention - where sneakerheads buy,
+              sell, and trade sneakers/streetwear. As hundreds of vendors show
+              off their rarest sneakers and collections, thousands of attendees
+              from across the country shop and experience special guest
+              appearances.
+            </p>
+            <div></div>
+            <div></div>
+            <!-- <div></div> -->
+          </div>
+          <div class="slash">
+            <img src="src\img\slashlogo.png" alt="logo" />
+            <p>
+              Refreshingly easy deposits, payments, virtual cards, and expense
+              tracking—all in one. A virtual credit card provider that can help
+              bring your sneaker business to new heights. Members will be given
+              opportunities to claim beta invite links to Slash VCC.
+            </p>
+            <div></div>
+            <div></div>
+            <!-- <div></div> -->
+          </div>
+          <div class="divvy">
+            <img src="src\img\divvy.png" alt="logo" />
+            <p>
+              The spend management solution that gives you the credit you need
+              and the software to manage it. With Divvy, a Bill.com company, you
+              can finally take control of your budgets.” Members will be given
+              access to Divvy.
+            </p>
+            <div></div>
+            <div></div>
+            <!-- <div></div> -->
+          </div>
+          <div class="aycd">
+            <img src="src\img\aycd.png" alt="logo" />
+            <p>
+              AYCD is automation done right. This software is designed to help
+              maximize your productivity, efficiency, and profit with many
+              services including security features. With ACYD, never pay more
+              than retail for anything again.
+            </p>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="labelHouse">
+            <img src="src\img\labelHouse.png" alt="logo" />
+            <p>
+              Our partnership with Label House allows members to acquire
+              shipping labels for the cheapest prices on the market. This simple
+              benefit will allow members to grow their profit margins and take
+              their business to the next level.
+            </p>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="locked">
+            <p>🔒 More to come ...</p>
+            <div></div>
+            <div></div>
+            <!-- <div></div> -->
+          </div>
+        </div>
+      </div>
+      <div class="faq-section section" id="faq">
+        <h2><span>faq</span></h2>
+        <div class="faq-details">
+          <!-- <h2>FAQ</h2> -->
+          <div>
+            <p>What is Bozo Chat?</p>
+            <p class="deactivate">
+              Bozo Chat is a team of professional resellers dedicated to helping
+              anyone willing to take their sneaker company / business to new
+              heights.
+            </p>
+            <span class="dropdown-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                />
+              </svg>
+            </span>
+          </div>
+          <div>
+            <p>How Much Is Bozo Chat?</p>
+            <p class="deactivate">
+              Bozo Chat is $40 a month. You may cancel anytime on our dashboard.
+            </p>
+            <span class="dropdown-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                />
+              </svg>
+            </span>
+          </div>
+          <div>
+            <p>Can I leave and join back at a later date?</p>
+            <p class="deactivate">
+              Old members are always welcomed back anytime! Just send us a DM on
+              Instagram to join back. maybe something like this We provide one
+              on one mentorship, and bring a wide variety of partnerships to
+              help our members in everyway possible
+            </p>
+            <span class="dropdown-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                />
+              </svg>
+            </span>
+          </div>
+          <div>
+            <p>Do I need a bot to join?</p>
+            <p class="deactivate">
+              No, you do not need a bot to join. We have hundreds of members who
+              are wildly successful without bots. However, our group does help
+              with hitting high amount of pairs. If interested, our staff will
+              guide you in the right direction with how to get started with
+              botting and hitting volume.
+            </p>
+            <span class="dropdown-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                />
+              </svg>
+            </span>
+          </div>
+          <img src="src\img\ui.svg" alt="ui" />
+        </div>
+      </div>
+      <footer>
+        <a target="blank" href="https://twitter.com/BozoChat"
+          ><img src="src\img\twitterIcon.svg" alt="twitter"
+        /></a>
+        <div class="infos">
+          <p>© 2022 BOZO Chat LLC. All rights reserved.</p>
+          <div class="details">
+            <a target="_blank" href="src\terms\terms_and_conditions.pdf"
+              >Terms of Services</a
+            >
+            <a target="_blank" href="src\terms\Privacy_Policy.pdf"
+              >Privacy Policy</a
+            >
+          </div>
+        </div>
+        <a target="blank" href="https://twitter.com/foxydraft">
+          <img src="src\img\foxydraft.svg" alt="foxydraftIcon" />
+        </a>
+      </footer>
+    </main>
+  </body>
+</html>
