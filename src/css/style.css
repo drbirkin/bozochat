@@ -1862,7 +1862,7 @@ footer .infos .details a {
     border-radius: 0;
     justify-content: flex-end;
     padding-bottom: 5rem;
-    background-image: linear-gradient(#ffe854, #ffd84a8b, #ffd84a00);
+    background-image: linear-gradient(#ffe854, #ffd84ad1, #ffd84a8b, #ffd84a00);
   }
   .intro-section .intro-text .upper {
     height: 4rem;
@@ -1880,6 +1880,9 @@ footer .infos .details a {
     margin-top: 0rem;
     margin-bottom: 18rem;
   }
+  .purchase a .shine {
+    display: none;
+  }
   .purchase h2,
   .purchase a {
     margin-left: 0;
@@ -1887,7 +1890,7 @@ footer .infos .details a {
 
   .intro-section .coverImage .delivery {
     width: 15rem;
-    bottom: -5rem;
+    bottom: -25rem;
     right: 0rem;
   }
   .intro-section .coverImage .gift {
@@ -1904,7 +1907,7 @@ footer .infos .details a {
     height: 100%;
   }
   .about-us img {
-    height: 25rem;
+    height: 20rem;
     top: 0rem;
   }
   .about-us {
@@ -1963,19 +1966,22 @@ footer .infos .details a {
     padding: 5rem 0.5rem;
   }
   .faq-details div {
-    height: 3.5rem;
+    height: 4rem;
   }
   .faq-details p:first-child {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
     font-size: 0.9rem;
     font-weight: 600;
   }
   .faq-details div p {
     color: #3b3d4171;
     text-align: center;
-    padding: 0 5rem;
+    padding: 0 0.3rem;
     font-size: 0.9rem;
     font-weight: 500;
+  }
+  .faq-details span {
+    display: none;
   }
   .faq-section .faq-details img {
     z-index: 0;
