@@ -1815,6 +1815,15 @@ footer .infos .details a {
   .navbar .logo {
     display: none;
   }
+
+  .navbar li {
+    float: right;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+  }
+
   .navbar li a {
     color: #ffffff;
     text-transform: uppercase;
@@ -1880,8 +1889,12 @@ footer .infos .details a {
     margin-top: 0rem;
     margin-bottom: 18rem;
   }
-  .purchase a .shine {
+  /* .purchase a .shine {
     display: none;
+  } */
+  .purchase a {
+    filter: none;
+    -ms-filter: none;
   }
   .purchase h2,
   .purchase a {
@@ -1889,12 +1902,18 @@ footer .infos .details a {
   }
 
   .intro-section .coverImage .delivery {
-    width: 15rem;
+    width: 20rem;
     bottom: -25rem;
     right: 0rem;
   }
+  .intro-section .coverImage .setting {
+    width: 25rem;
+    right: -5rem;
+  }
   .intro-section .coverImage .gift {
     bottom: -3rem;
+    left: 2rem;
+    /* width: 15rem; */
   }
   .intro-section .coverImage .starOne {
     bottom: 25rem;
@@ -1967,6 +1986,10 @@ footer .infos .details a {
   }
   .faq-details div {
     height: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .faq-details p:first-child {
     margin-bottom: 1rem;
