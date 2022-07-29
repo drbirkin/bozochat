@@ -1804,6 +1804,9 @@ footer .infos .details a {
   #cursor {
     display: none;
   }
+  .loader img {
+    width: 1rem;
+  }
   .navbar {
     height: 3.5rem;
     backdrop-filter: blur(5px);
