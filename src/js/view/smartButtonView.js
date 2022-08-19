@@ -1,18 +1,21 @@
+const header = {
+  method: 'GET',
+  headers: {
+    Accept: 'application/json',
+    Authorization: `Bearer ${process.env.SECRET_BOZO}`,
+  },
+}
+
 const buttonView = async (response, options) => {
   const $purchaseButton = document.getElementById(options.purchaseButtonId)
   const purchaseButton = document.querySelector('#purchaseButton')
   const newElement = document.createElement('span')
-  if (response.status !== 200) {
+  if (response.data.length === 0) {
     $purchaseButton.innerHTML = options.outOfStockText || 'Out Of Stock'
   } else {
-    const release = await response.json()
-
-    if (release.out_of_stock)
-      $purchaseButton.innerHTML = options.outOfStockText || 'Out Of Stock'
-    else {
-      $purchaseButton.innerHTML = options.inStockText || 'Purchase'
-      $purchaseButton.href = release.link
-    }
+      $purchaseButton.innerHTML = `${options.inStockText} $${response.data[0].plan.amount/100}/Month` || 'Purchase'
+      $purchaseButton.href = response.data[0].url
+    
   }
   newElement.classList.add('shine')
   purchaseButton.appendChild(newElement)
@@ -33,8 +36,9 @@ const buttonView = async (response, options) => {
 
 export const metaLabs = async function MetaLabs(portalUrl, options) {
   const res = await fetch(
-    `https://${portalUrl}/api/release${window.location.search}`
+    `https://${portalUrl}/v6/links?active=true`,header
   )
-  await buttonView(res, options)
+  
+  await buttonView(await res.json(), options)
   // smartButtonStyleView()
 }

@@ -29,10 +29,10 @@ const controller = () => {
   // cursor
   requestAnimationFrame(moveCursor)
   // smartbutton purchase links
-  metaLabs('dashboard.bozochat.com', {
+  metaLabs('api.hyper.co', {
     purchaseButtonId: 'purchaseButton',
     outOfStockText: 'Out of Stock',
-    inStockText: 'Purchase for $40/Month',
+    inStockText: 'Purchase for',
   })
 
   // IntersectionObserverAPI
