@@ -1066,8 +1066,9 @@ img {
   -ms-filter: drop-shadow(0 0 0.75rem rgba(27, 24, 24, 0.17));
 }
 .services div svg {
-  width: 10rem;
-  height: 5.5rem;
+  /* width: 10rem;
+  height: 5.5rem; */
+  /* transform: scale(2.5); */
   margin: 2rem 0;
   filter: drop-shadow(0 0 0.75rem rgba(27, 24, 24, 0.17));
   -webkit-filter: drop-shadow(0 0 0.75rem rgba(27, 24, 24, 0.17));
