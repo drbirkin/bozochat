@@ -997,9 +997,53 @@ img {
 
 .services div:hover {
   background-color: #ffd84a;
+  transition: all 1s ease;
   /* background-color: #8b9cdf8c; */
 }
+.services .aco:hover svg #Path_16 {
+  fill: white;
+  transition: all 1s ease;
+}
+.services .aco:hover svg #Path_17 {
+  fill: #ffeca6;
+  transition: all 1s ease;
+}
 
+.services .seminar:hover svg #Path_6-2 {
+  fill: #595963;
+  transition: all 1s ease;
+}
+
+.services .guide:hover svg #Path_12 {
+  fill: #ffeca6;
+  transition: all 1s ease;
+}
+.services .guide:hover svg #Path_11 {
+  fill: #595963;
+  transition: all 1s ease;
+}
+.services .guide:hover svg #Path_2 {
+  fill: #fff;
+  transition: all 1s ease;
+}
+
+.services .support:hover svg #Path_3 {
+  fill: #fff;
+  transition: all 1s ease;
+}
+.services .support:hover svg #Path_5 {
+  fill: #595963;
+  transition: all 1s ease;
+}
+
+.services .shipping:hover svg #Path_18 {
+  fill: #ffeca6;
+  transition: all 1s ease;
+}
+.services .shipping:hover svg #Path_20 {
+  fill: #595963;
+  transition: all 1s ease;
+}
 /* .services:hover div:nth-child(2n) {
   top: 0;
 }
@@ -1022,7 +1066,8 @@ img {
   -ms-filter: drop-shadow(0 0 0.75rem rgba(27, 24, 24, 0.17));
 }
 .services div svg {
-  width: 7rem;
+  width: 10rem;
+  height: 5.5rem;
   margin: 2rem 0;
   filter: drop-shadow(0 0 0.75rem rgba(27, 24, 24, 0.17));
   -webkit-filter: drop-shadow(0 0 0.75rem rgba(27, 24, 24, 0.17));

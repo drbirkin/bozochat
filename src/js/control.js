@@ -31,7 +31,7 @@ const controller = () => {
   // smartbutton purchase links
   metaLabs('api.hyper.co', {
     purchaseButtonId: 'purchaseButton',
-    outOfStockText: 'Out of Stock',
+    outOfStockText: 'Join our Waitlist',
     inStockText: 'Purchase for',
   })
 

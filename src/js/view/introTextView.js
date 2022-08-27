@@ -15,7 +15,7 @@ class TextView {
       ? 33.34
       : 33.34 * -1
     this._moveValue = this.getTranslateXY(this._data.children[0], this._data)
-    console.log(this._moveValue)
+    // console.log(this._moveValue)
     if (this._moveValue === this._checkValue * 2) {
       this._data.children[0].style.transform = `translateY(0%)`
       this._moveValue = 0
@@ -41,7 +41,7 @@ class TextView {
         translateStyle.indexOf('(') + 1,
         translateStyle.indexOf('%')
       ) * 1
-    console.log(styleVal)
+    // console.log(styleVal)
     // const style = window.getComputedStyle(element)
     // const matrex = style.getPropertyValue('transform')
     // const matrexArr = matrex.split(', ')
